@@ -1,3 +1,9 @@
+### Official CUDA Implementations from the ICIP2025 Paper "Extensions of Morphological Gradient for Hyperspectral Images"
+**Paper:** [IEEE Xplore Link](https://ieeexplore.ieee.org/document/11084737) |
+**Supplementary Material:** [SigPort Link](https://sigport.org/documents/extensions-morphological-gradient-hyperspectral-images) 
+
+---
+
 We provide parallel CUDA implementations of eleven (existing and new) HSI gradient approaches for GPU execution. The `main.cu` file illustrates the execution of the algorithm **MorphL1** applied on **Indian Pines** dataset included in the **data** directory.
 
 We keep the implementations of the algorithms independent to easily execute the code of an algorithm without introducing dependencies.
@@ -62,3 +68,21 @@ cmake ..
 make
 ./gm_cuda
 ```
+
+---
+
+## Citation
+
+If you use our code in your research, please cite our paper:
+
+```bibtex
+@inproceedings{davtyan2025extensions,
+  title={Extensions of Morphological Gradient for Hyperspectral Images},
+  author={Davtyan, Lusine and Bezirganyan, Sona and Hunanyan, Arpi and Gabrielyan, Yeva and Butavyan, Aram and Yeghiazaryan, Varduhi},
+  booktitle={2025 IEEE International Conference on Image Processing (ICIP)},
+  pages={743--748},
+  year={2025},
+  organization={IEEE}
+}
+```
+
